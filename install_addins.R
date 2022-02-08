@@ -1,0 +1,11 @@
+devtools::install_github("rstudio/addinexamples", upgrade = "never")
+devtools::install_github("seasmith/AlignAssign", upgrade = "never")
+devtools::install_github("jennybc/jadd", upgrade = "never")
+devtools::install_github("fkeck/quickview", upgrade = "never")
+devtools::install_github("gadenbuie/regexplain", upgrade = "never")
+devtools::install_github("sfr/RStudio-Addin-Snippets", upgrade = "never")
+install.packages("boomer", upgrade = "never")
+install.packages("datapasta", upgrade = "never")
+install.packages("ggThemeAssist", upgrade = "never")
+
+rstudioapi::restartSession()
